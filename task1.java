@@ -1,47 +1,20 @@
-package Assignment4;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
+package Assignment1;
 
 public class task1 {
 
-	public static void main(String[] args) {
-		
-
-		List<String> l1=new ArrayList<>();
-		l1.add("Java");
-		l1.add("Selenium");
-		l1.add("TestNG");
-		l1.add("Git");
-		l1.add("Github");
-		System.out.println(l1);
-		//Collections.reverse(l1);
-		//System.out.println(l1);
-		
-         List <String> l2=new ArrayList<>();
+	public static void main(String[] args) 
+	{
+		 int a=10, b=20;
+         int temp=a;
          
-		for(int i=l1.size()-1;i>=0;i--)
-	   {
-		   String str=l1.get(i);
-		   l2.add(str);
-	   }
-		  System.out.println(l2);
-
-		}
-		
-
-	
-		  
-		  
-	
-		
-		
-
-
-
+         System.out.println(a);
+         System.out.println(b);
+         a=b;
+         b=temp;
+         System.out.println("value of a="+ a);
+         System.out.println("value of b=" + b);
+         
 
 	}
 
-
+}
